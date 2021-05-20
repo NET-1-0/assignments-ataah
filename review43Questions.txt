@@ -1,0 +1,43 @@
+Question 1: A Class represents a blueprint and an object would be [a Method or an Object (variable)].
+Question 2: OOP = [Object Oriented Programming]
+Question 3: Applications that can be created with Visual Studio include: [Web Forms, Windows Forms, Model View Controller, Console Application, Xamarin]
+Question 4: [CTS = Common Type System; CLS = Common Language Specification; CLR = Common Language Runtime; JIT = Just-In-Time (JIT) compilation]
+Question 5: Primitive types are also known as [data types]
+Question 6: A Byte can store [up to 256 bits]
+Question 7: A Char can only store 1 character
+Question 8: ???
+Question 9: A double data type is 8 bytes
+Question 10: POCO = Plain Old Class Object; Plain Old CLR Object
+Question 11: You can create a custom value type in C# by using the struct keyword
+Question 12: An entity is anything that has a unique, separate, existence
+Question 13: Short is also called Int16 (it is short in comparison to Int = Int32)
+Question 14: Long is also called Int64 (it is long in comparison to Int = Int32)
+Question 15: Unsigned data types can not be negative (because it is unsigned; no "-")
+Question 16: False, WriteLine is a Method of the Console class, which exists within the System Class
+Question 17: The WriteLine method having 19 overloads is an example of static polymorphism
+[]
+Question 19: An escape sequence is "\" (backslash). To escape an escape sequence you would use the escape sequence twice "\\".
+Question 20: 3 different ways of concatenating strings: (string string1 = "hello"; string string2 = "world";). 1. Console.WriteLine(string1 + string2); 2. Console.WriteLine("{0} {1}", string1, string 2); 3. Console.WriteLine($"{string1} {string2}");
+Question 21: To search for a substring within a string (given string exampleString = "This is an example";) one would write: "bool check = exampleString.Contains("example");" which would return a value of True for the boolean variable named "check"
+Question 22: False; StringBuilder is mutable, meaning it is able to be mutated
+Question 23: False; Verbatim Literal (@) will print the string verbatim
+Question 24: The function of garbage collection is to reclaim memory from unused objects within a Programming
+Question 25: True; Modulus (%) returns a quotient
+Question 26: Math.Round rounds the value to the nearest whole number, Math.Truncate removes the decimal value
+Question 27: ???
+Question 28: The ternary operator is more efficient because it uses less lines of code to perform the same function
+Question 29: The noal coalescing operator can pass a predefined value to a nonnullable variable in the case that a null value is attributed to that variable
+Question 30: True; XML documentation comments are used to provide tips on Method/Class usage
+Question 31: False; unless they are a nullable type of a primitive datatype for example int?, string?
+Question 32: by placing a ? at the end of the datatype, for example int? is a nullable int variable. Another way would be Nullable<int>. And the third way would be to use the ?? operator.
+Question 33: False; it's valid for converting a smaller data type to a larger one
+Question 34: By using the Convert.To method
+Question 35: TryParse would help prevent the program from crashing, instead it would output a custom catch/error message
+Question 36: False
+Question 37: False
+Question 38: True
+Question 39: The ArrayList can be found inside the System.Collections namespace
+Question 40: if/elseif/else statements check each condition, while switch cases only run through the applicable case condition
+Question 41: The do-while loop runs the instructed code once and then checks conditoins, while a while loop only passes instructions to be run when/while a certain condition is met
+Question 42: True: it can, but that's not all it does
+Question 43: ???
