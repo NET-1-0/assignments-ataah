@@ -1,0 +1,20 @@
+Question 1: False; The "protected" access modifier allows access within the same class and the derived classes
+Question 2: True
+Question 3: An output parameter transfers data out of the method. Other parameters are reference parameters, which import data into the method
+Question 4: True
+Question 5: You can only define one parameter array for any given method and the specified parameter must be the last one listed in the array
+Question 6: True; namespaces are containers of code
+Question 7: The default value (and in a sense the original declaration) transfers instead of creating new objects to define the values
+Question 8: Classic Diamond Problem occurs when two classes inherit from a single class and then a single method inherits from those two classes and an ambiguity occurs from differentiations in co
+Question 9: False
+Question 10: True
+Question 11: True
+Question 12: False
+Question 13: True
+Question 14: When method hiding is implemented using the new keyword, the hidden method is not able to be passed on to the derived classes, it is hidden from them
+Question 15: True
+Question 16: True
+Question 17: True
+Question 18: A dictionary object is a type of list/array1
+Question 19: False; Queue is first in first out, Stack is last in first out
+Question 20: False; An array list can contain multiple of the same value. A dictionary requires unique data to be stored as keys but can still contain multiples of the same value
