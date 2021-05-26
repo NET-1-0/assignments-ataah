@@ -1,0 +1,27 @@
+USE [hospitaldb]
+GO
+
+/****** Object:  Table [dbo].[PatientAppointment]    Script Date: 5/26/2021 10:36:23 AM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[PatientAppointment](
+	[PatientID] [int] NOT NULL,
+	[AppointmentID] [int] IDENTITY(1,1) NOT NULL,
+	[VisitDate] [date] NOT NULL,
+	[ConsultantName] [nvarchar](50) NOT NULL
+) ON [PRIMARY]
+GO
+
+-----------------------------------------------------------------------------------------------
+
+insert into PatientAppointment (PatientID, VisitDate, ConsultantName) values (1, 2021-04-25, 'Concord')
+
+select * from PatientAppointment where PatientID = 1 
+
+update PatientAppointment set ConsultantName = 'Hamilton' where AppointmentID = 9
+
+delete from PatientAppointment where AppointmentID = 6
